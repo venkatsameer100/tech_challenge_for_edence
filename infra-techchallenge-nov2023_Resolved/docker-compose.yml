@@ -1,0 +1,41 @@
+services:
+
+  # a python bottle.py webapp
+  app:
+    build: app
+    init: true
+    labels:
+      - "traefik.enable=true"
+      - "traefik.port=80"
+      - "traefik.frontend.rule=PathPrefix: /"
+      - "traefik.frontend.passHostHeader=false"
+    volumes:
+      - "./articles:/articles/:ro"
+
+  # a redis database for storing our puppy URLs
+  redis:
+    image: redis:alpine
+    command: redis-server --appendonly yes
+
+  # for serving static assets
+  nginx:
+    image: nginx:1-alpine
+    command: [nginx-debug, '-g', 'daemon off; error_log /dev/stdout info;']
+    volumes:
+      - "./static:/usr/share/nginx/html:ro"
+      - "./config/nginx.conf:/etc/nginx/conf.d/default.conf:ro"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.frontend.rule=PathPrefixStrip: /static"
+      - "traefik.port=80"
+      - "traefik.frontend.passHostHeader=false"
+
+  # our frontend load balancer
+  traefik:
+    image: traefik:v1.5
+    ports:
+      - "8000:80"
+      - "8080:8080"
+    volumes:
+      - "./config/traefik.toml:/etc/traefik/traefik.toml:ro"
+      - "/var/run/docker.sock:/var/run/docker.sock"
