@@ -55,9 +55,10 @@ body {
     border-bottom: 0; } }
 
 #thepuppies img {
-  float: right;
+  float: right; /* Bug fix 3 - position to right */
   margin: 1em; 
 }
+
 
 h4 {
   font-size: 200%;

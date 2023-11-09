@@ -3,12 +3,10 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log("edenceHealth");
 
     // load the job description text
-    // Fixing Bug 2, the job_description file name is not correctly mentioned for the python code to format
-    //fetch("/content/job")
-    fetch('/content/job_description')
+    fetch('/content/job_description') //Bug Fix 2
       .then(response => response.text())
       .then(html => {
-          document.getElementById("job_description").innerHTML = html;
+        document.getElementById("job_description").innerHTML = html;
       });
 
     // load 10 puppy URLs from the database
