@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e26a1e56-43f1-440c-be66-4b331430153f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/static/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/static/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/static/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/static/js/html5shiv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/static/js/ie10-viewport-bug-workaround.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/static/js/respond.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/app/src/challenge/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/app/src/challenge/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/app/src/challenge/templates/index.html.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/app/src/challenge/templates/index.html.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/infra-techchallenge-nov2023_Resolved/static/js/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2XxL0yt6IGc0GDgTJHbm36lvWPF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/sameer_kumar_svs/projects/tech_challenge_for_edence",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e26a1e56-43f1-440c-be66-4b331430153f" name="Changes" comment="" />
+      <created>1699565565243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699565565243</updated>
+      <workItem from="1699565566278" duration="5693000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
