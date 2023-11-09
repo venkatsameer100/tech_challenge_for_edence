@@ -8,9 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     fetch('/content/job_description')
       .then(response => response.text())
       .then(html => {
-          // Fixing Bug 2, the element id should be in sync with the id mentioned in the html class
-          //document.getElementById("job_description").innerHTML = html;
-        document.getElementById("job").innerHTML = html;
+          document.getElementById("job_description").innerHTML = html;
       });
 
     // load 10 puppy URLs from the database
@@ -21,9 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
           let img = document.createElement("img");
           img.src = data["url"];
           img.classList.add("img-responsive");
-          // Fixing Bug 3, the element id should be in sync with the id mentioned in the html class
-          //document.getElementById("thepuppies").appendChild(img);
-          document.getElementById("puppies").appendChild(img);
+          document.getElementById("thepuppies").appendChild(img);
         });
     }
   });
