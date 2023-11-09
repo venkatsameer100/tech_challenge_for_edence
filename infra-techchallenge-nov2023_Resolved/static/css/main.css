@@ -55,12 +55,9 @@ body {
     border-bottom: 0; } }
 
 #thepuppies img {
-  /*Fixing Bug 3, the position of the pics should be right
-  float: left;*/
   float: right;
   margin: 1em; 
 }
-
 
 h4 {
   font-size: 200%;

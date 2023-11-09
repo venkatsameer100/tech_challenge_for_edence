@@ -22,8 +22,6 @@ services:
     image: nginx:1-alpine
     command: [nginx-debug, '-g', 'daemon off; error_log /dev/stdout info;']
     volumes:
-  # Fixing Bug 1 - the root folder for the nginx server to find the static path is wrong, hence the image is not getting loaded
-      #- "./static/pkg:/usr/share/nginx/html:ro"
       - "./static:/usr/share/nginx/html:ro"
       - "./config/nginx.conf:/etc/nginx/conf.d/default.conf:ro"
     labels:
