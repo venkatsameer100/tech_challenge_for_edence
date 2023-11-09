@@ -20,8 +20,8 @@ template_dir = "/app/challenge/templates"
 def v_index():
     """ view for the main index """
     return template(f'{template_dir}/index.html.tmpl',
-                    {"when": "November 2023"})
-
+                    #{"when": "Movember 2023"})
+                    {"when": "November 2023"}) # Fixing Bug 4 the name of the page heading is wrong
 
 @route('/puppy/<puppyid>')
 def json_puppy(puppyid):

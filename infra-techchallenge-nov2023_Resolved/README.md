@@ -11,7 +11,7 @@ You will need functional installations of:
 1. Docker Desktop: <https://www.docker.com/products/docker-desktop/> - **My MAC is an old version hence I had to follow other route to Install the docker desktop using home-brew**
 3. Git: <https://git-scm.com/downloads> - **Installed** (2.42.2)
 4. A modern web browser - **Updated** - Chrome (118.0.5)
-5. A code editor - **Installed** - Visual Studio Code (Version 11 Unicode)
+5. A code editor - **Installed** - Pycharm free version without license 
 
 ## Notes
 
